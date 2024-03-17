@@ -1,7 +1,7 @@
 {
-    "name": "Funny Jump Mod",
+    "name": "Funny_Jump_Mod",
     "version_number": "0.0.1",
-    "website_url": "https://github.com/LCOS-Lethal-Company-Open-Source/LCOS-Mods",
+    "website_url": "https://github.com/LCOS-Lethal-Company-Open-Source/LCOS-JumpMod",
     "description": "A mod which makes jump height random",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.2100"

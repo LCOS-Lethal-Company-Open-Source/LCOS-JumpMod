@@ -3,7 +3,7 @@ using BepInEx;
 using GameNetcodeStuff;
 using HarmonyLib;
 using UnityEngine;
-namespace Template;
+namespace LCOS.JumpMod;
 
 [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
 public class Plugin : BaseUnityPlugin
