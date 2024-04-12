@@ -25,18 +25,18 @@ public class Plugin : BaseUnityPlugin
         {
             int chanceVal = UnityEngine.Random.Range(0, 100);
 
-            // 40% chance to jump normally
-            if (chanceVal >= 60) __instance.jumpForce = 5f;
-            // 30% chance to jump slightly higher
-            else if (chanceVal >= 30) __instance.jumpForce = UnityEngine.Random.Range(10f, 20f);
-            // 15% chance to jump very high
-            else if (chanceVal >= 15) __instance.jumpForce = UnityEngine.Random.Range(25f, 35f);
+            // 50% chance to jump normally
+            if (chanceVal >= 50) __instance.jumpForce = 5f;
+            // 25% chance to jump slightly higher
+            else if (chanceVal >= 25) __instance.jumpForce = UnityEngine.Random.Range(7f, 20f);
+            // 10% chance to jump very high
+            else if (chanceVal >= 15) __instance.jumpForce = UnityEngine.Random.Range(25f, 40f);
             // 10% chance to jump slightly lower
             else if (chanceVal >= 5) __instance.jumpForce = UnityEngine.Random.Range(3f, 4.5f);
-            // 3% chance to jump very low
-            else if (chanceVal >= 2) __instance.jumpForce = UnityEngine.Random.Range(1f, 2.5f);
-            // 2% chance to jump extremely high
-            else __instance.jumpForce = UnityEngine.Random.Range(50f, 100f);
+            // 4% chance to jump very low
+            else if (chanceVal >= 1) __instance.jumpForce = UnityEngine.Random.Range(0.5f, 2f);
+            // 1% chance to jump extremely high
+            else __instance.jumpForce = UnityEngine.Random.Range(50f, 200f);
             return true;
         }
     }  
